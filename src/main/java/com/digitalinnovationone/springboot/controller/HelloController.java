@@ -8,7 +8,7 @@ public class HelloController {
 	
 	@GetMapping("/")
 	public String helloMessage() {
-		return "Hello Claudio, this is your third Springboot project";
+		return "Hello Claudio, this is your third Springboot project!";
 	}
 
 }
